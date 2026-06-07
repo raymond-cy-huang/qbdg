@@ -1,18 +1,18 @@
-# QDBG: Quantifying Background Distortion in GAN Inversion
+# QBDG: Quantifying Background Distortion in GAN Inversion
 
 This repository consolidates the codebases and downstream experiment apps used
-for QDBG: measuring and visualizing background distortion introduced by GAN
+for QBDG: measuring and visualizing background distortion introduced by GAN
 inversion and face frontalization pipelines.
 
 This repository is organized around runnable apps rather than a single
 monolithic script. Imported research code stays under `subprojects/`, while
-QDBG-specific orchestration lives under `apps/`.
+QBDG-specific orchestration lives under `apps/`.
 
 ## Repository Layout
 
 ```text
 qbdg/
-  apps/             # Downstream QDBG apps and runnable scripts.
+  apps/             # Downstream QBDG apps and runnable scripts.
   images/           # Paper/reference figures used by the README and report.
   setup/            # Conda environment files and model download scripts.
   subprojects/      # Imported codebases used by the apps.
