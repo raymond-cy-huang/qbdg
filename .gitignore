@@ -146,12 +146,3 @@ subprojects/pixel2style2pixel/pretrained_models/
 *.pth
 
 *.DS_Store
-
-*.jpg
-*.png
-*.jpeg
-*.JPG
-*.PNG
-*.JPEG
-*.gif
-*.GIF
