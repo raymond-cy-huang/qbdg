@@ -1,0 +1,23 @@
+name: bbox_mask_pose
+channels:
+  - pytorch
+  - nvidia
+  - conda-forge
+  - defaults
+dependencies:
+  - python=3.10
+  - pip
+  - numpy
+  - opencv
+  - pillow
+  - pyyaml
+  - tqdm
+  - pytorch
+  - torchvision
+  - pip:
+      - openmim
+      - mmengine
+      - xtcocotools
+      - pycocotools
+      - json-tricks
+      - munkres
